@@ -3,4 +3,3 @@ Description: The frontend for the TE E-learning Platform, built using modern web
 # Author:
 ## - CHERKAOUI Mohammed
 ## - ZAAIT Wassim
-## - MSAOURI CHARROUD Yousra
