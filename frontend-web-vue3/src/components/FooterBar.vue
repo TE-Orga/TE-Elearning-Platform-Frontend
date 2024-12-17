@@ -9,14 +9,13 @@ const year = new Date().getFullYear()
 <template>
   <footer class="py-2 px-6" :class="containerMaxW">
     <BaseLevel>
-      <div class="text-center md:text-left">
-        <b>&copy;{{ year }}, <a href="https://justboil.me/" target="_blank">JustBoil.me</a>.</b>
-        <slot />
+      <div class="text-center md:text-left py-4">
+        <b>&copy;{{ year }}, <a href="https://www.te.com/" target="_blank">TE Connectivity</a>.</b>
       </div>
       <div class="md:py-2">
-        <a href="https://justboil.me">
+        <!-- <a href="https://justboil.me">
           <JustboilLogo class="w-auto h-8 md:h-6" />
-        </a>
+        </a> -->
       </div>
     </BaseLevel>
   </footer>

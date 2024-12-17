@@ -81,7 +81,7 @@ const menuClick = (event) => {
     <AsideMenuList
       v-if="hasDropdown"
       :menu="item.menu"
-      :class="['aside-menu-dropdown', isDropdownActive ? 'block bg-orange-400/50 dark:bg-orange-400/50' : 'hidden']"
+      :class="['aside-menu-dropdown', isDropdownActive ? 'block bg-orange-400 dark:bg-orange-400' : 'hidden']"
       is-dropdown-list
     />
   </li>
